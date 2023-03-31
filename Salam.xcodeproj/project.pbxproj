@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032B646763773A113E632D72 /* Pods_Salam_SalamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 741791C853683056133FF9FD /* Pods_Salam_SalamUITests.framework */; };
+		580A013F27ADE16A000482AE /* SwiftAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580A013E27ADE16A000482AE /* SwiftAlerts.swift */; };
+		581D89CA279B32A0008AA2B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 581D89C9279B32A0008AA2B6 /* GoogleService-Info.plist */; };
+		586B74462804D86C00E8BD81 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586B74452804D86C00E8BD81 /* User.swift */; };
+		5872ADEF278F35D2004CEC1A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5872ADEE278F35D2004CEC1A /* SignUpVC.swift */; };
+		5872ADF1278F478F004CEC1A /* SigInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5872ADF0278F478F004CEC1A /* SigInVC.swift */; };
+		5872ADF3278F8BEB004CEC1A /* ForgetPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5872ADF2278F8BEB004CEC1A /* ForgetPassVC.swift */; };
+		5888DC3027AF2794003E387F /* SignUpEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5888DC2F27AF2794003E387F /* SignUpEXT.swift */; };
+		5888DC3227AF2AC6003E387F /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5888DC3127AF2AC6003E387F /* Api.swift */; };
+		5888DC3527AF2B6C003E387F /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5888DC3427AF2B6C003E387F /* UserApi.swift */; };
+		5888DC3727AF32A2003E387F /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5888DC3627AF32A2003E387F /* StorageService.swift */; };
+		5888DC3927AF367E003E387F /* Ref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5888DC3827AF367E003E387F /* Ref.swift */; };
+		58B1925527F78ECD0045E63C /* PeopleTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1925427F78ECD0045E63C /* PeopleTBVC.swift */; };
+		58B1925827F7912D0045E63C /* UserTBVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1925727F7912D0045E63C /* UserTBVCell.swift */; };
+		58C1483E2775F6080085D886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C1483D2775F6080085D886 /* Assets.xcassets */; };
+		58D49D3327750A6D00C4F034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D49D3227750A6D00C4F034 /* AppDelegate.swift */; };
+		58D49D3727750A6D00C4F034 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D49D3627750A6D00C4F034 /* FirstVC.swift */; };
+		58D49D3A27750A6D00C4F034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D49D3827750A6D00C4F034 /* Main.storyboard */; };
+		58D49D3F27750A6D00C4F034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D49D3D27750A6D00C4F034 /* LaunchScreen.storyboard */; };
+		58D49D4A27750A6E00C4F034 /* SalamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D49D4927750A6E00C4F034 /* SalamTests.swift */; };
+		58D49D5427750A6E00C4F034 /* SalamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D49D5327750A6E00C4F034 /* SalamUITests.swift */; };
+		58D49D5627750A6E00C4F034 /* SalamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D49D5527750A6E00C4F034 /* SalamUITestsLaunchTests.swift */; };
+		58E3E6FB28305C7900EE2638 /* MessageTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E3E6FA28305C7900EE2638 /* MessageTBVC.swift */; };
+		58E3E6FD28306BE300EE2638 /* imageEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E3E6FC28306BE300EE2638 /* imageEXT.swift */; };
+		58F9B93327F7A952007F65BF /* testVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F9B93227F7A952007F65BF /* testVC.swift */; };
+		BD18097A5256B57340FF1B84 /* Pods_Salam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485764C406F0D99AD59BB5A3 /* Pods_Salam.framework */; };
+		DF0458EC2DA00F87DEC0222F /* Pods_SalamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626C73157A27DC5DFDD0A5CB /* Pods_SalamTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58D49D4627750A6E00C4F034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58D49D2727750A6D00C4F034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D49D2E27750A6D00C4F034;
+			remoteInfo = Salam;
+		};
+		58D49D5027750A6E00C4F034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58D49D2727750A6D00C4F034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58D49D2E27750A6D00C4F034;
+			remoteInfo = Salam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		435B06AA8647155B2E70A56B /* Pods-Salam-SalamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salam-SalamUITests.release.xcconfig"; path = "Target Support Files/Pods-Salam-SalamUITests/Pods-Salam-SalamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		442C11FFDEC4CB5B77437BBA /* Pods-SalamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalamTests.debug.xcconfig"; path = "Target Support Files/Pods-SalamTests/Pods-SalamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		485764C406F0D99AD59BB5A3 /* Pods_Salam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		580A013E27ADE16A000482AE /* SwiftAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAlerts.swift; sourceTree = "<group>"; };
+		581D89C9279B32A0008AA2B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		586B74452804D86C00E8BD81 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5872ADEE278F35D2004CEC1A /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		5872ADF0278F478F004CEC1A /* SigInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInVC.swift; sourceTree = "<group>"; };
+		5872ADF2278F8BEB004CEC1A /* ForgetPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassVC.swift; sourceTree = "<group>"; };
+		5888DC2F27AF2794003E387F /* SignUpEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEXT.swift; sourceTree = "<group>"; };
+		5888DC3127AF2AC6003E387F /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		5888DC3427AF2B6C003E387F /* UserApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		5888DC3627AF32A2003E387F /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		5888DC3827AF367E003E387F /* Ref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ref.swift; sourceTree = "<group>"; };
+		58B1925427F78ECD0045E63C /* PeopleTBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTBVC.swift; sourceTree = "<group>"; };
+		58B1925727F7912D0045E63C /* UserTBVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTBVCell.swift; sourceTree = "<group>"; };
+		58C1483D2775F6080085D886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		58D49D2F27750A6D00C4F034 /* Salam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D49D3227750A6D00C4F034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58D49D3627750A6D00C4F034 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		58D49D3927750A6D00C4F034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58D49D3E27750A6D00C4F034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58D49D4027750A6D00C4F034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D49D4527750A6E00C4F034 /* SalamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D49D4927750A6E00C4F034 /* SalamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalamTests.swift; sourceTree = "<group>"; };
+		58D49D4F27750A6E00C4F034 /* SalamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58D49D5327750A6E00C4F034 /* SalamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalamUITests.swift; sourceTree = "<group>"; };
+		58D49D5527750A6E00C4F034 /* SalamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58E3E6FA28305C7900EE2638 /* MessageTBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageTBVC.swift; path = ../../MessageTBVC.swift; sourceTree = "<group>"; };
+		58E3E6FC28306BE300EE2638 /* imageEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageEXT.swift; sourceTree = "<group>"; };
+		58F9B93227F7A952007F65BF /* testVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testVC.swift; sourceTree = "<group>"; };
+		6093E4599BA8E55975DAE5E4 /* Pods-Salam-SalamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salam-SalamUITests.debug.xcconfig"; path = "Target Support Files/Pods-Salam-SalamUITests/Pods-Salam-SalamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		626C73157A27DC5DFDD0A5CB /* Pods_SalamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		653AFCD28A5DCFA874870F03 /* Pods-SalamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalamTests.release.xcconfig"; path = "Target Support Files/Pods-SalamTests/Pods-SalamTests.release.xcconfig"; sourceTree = "<group>"; };
+		741791C853683056133FF9FD /* Pods_Salam_SalamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salam_SalamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51B7CA428B7232673F3BF97 /* Pods-Salam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salam.debug.xcconfig"; path = "Target Support Files/Pods-Salam/Pods-Salam.debug.xcconfig"; sourceTree = "<group>"; };
+		CC4B83BD974540F1F365CA0C /* Pods-Salam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salam.release.xcconfig"; path = "Target Support Files/Pods-Salam/Pods-Salam.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58D49D2C27750A6D00C4F034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD18097A5256B57340FF1B84 /* Pods_Salam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D49D4227750A6E00C4F034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0458EC2DA00F87DEC0222F /* Pods_SalamTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D49D4C27750A6E00C4F034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032B646763773A113E632D72 /* Pods_Salam_SalamUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28673EDAC7548167801C233E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				485764C406F0D99AD59BB5A3 /* Pods_Salam.framework */,
+				741791C853683056133FF9FD /* Pods_Salam_SalamUITests.framework */,
+				626C73157A27DC5DFDD0A5CB /* Pods_SalamTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43F11DC09025B7F7F5B408D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B51B7CA428B7232673F3BF97 /* Pods-Salam.debug.xcconfig */,
+				CC4B83BD974540F1F365CA0C /* Pods-Salam.release.xcconfig */,
+				6093E4599BA8E55975DAE5E4 /* Pods-Salam-SalamUITests.debug.xcconfig */,
+				435B06AA8647155B2E70A56B /* Pods-Salam-SalamUITests.release.xcconfig */,
+				442C11FFDEC4CB5B77437BBA /* Pods-SalamTests.debug.xcconfig */,
+				653AFCD28A5DCFA874870F03 /* Pods-SalamTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5888DC2E27AF2760003E387F /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				5888DC2F27AF2794003E387F /* SignUpEXT.swift */,
+				580A013E27ADE16A000482AE /* SwiftAlerts.swift */,
+				58E3E6FC28306BE300EE2638 /* imageEXT.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		5888DC3327AF2B0D003E387F /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5888DC3127AF2AC6003E387F /* Api.swift */,
+				5888DC3427AF2B6C003E387F /* UserApi.swift */,
+				5888DC3627AF32A2003E387F /* StorageService.swift */,
+				5888DC3827AF367E003E387F /* Ref.swift */,
+				586B74452804D86C00E8BD81 /* User.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		58A528FA27B07A290097444E /* TapBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				58E3E6FA28305C7900EE2638 /* MessageTBVC.swift */,
+				58B1925427F78ECD0045E63C /* PeopleTBVC.swift */,
+				58F9B93227F7A952007F65BF /* testVC.swift */,
+			);
+			path = TapBarVC;
+			sourceTree = "<group>";
+		};
+		58B1925627F790F80045E63C /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				58B1925727F7912D0045E63C /* UserTBVCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		58D49D2627750A6D00C4F034 = {
+			isa = PBXGroup;
+			children = (
+				58D49D3127750A6D00C4F034 /* Salam */,
+				58D49D4827750A6E00C4F034 /* SalamTests */,
+				58D49D5227750A6E00C4F034 /* SalamUITests */,
+				58D49D3027750A6D00C4F034 /* Products */,
+				43F11DC09025B7F7F5B408D7 /* Pods */,
+				28673EDAC7548167801C233E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58D49D3027750A6D00C4F034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58D49D2F27750A6D00C4F034 /* Salam.app */,
+				58D49D4527750A6E00C4F034 /* SalamTests.xctest */,
+				58D49D4F27750A6E00C4F034 /* SalamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58D49D3127750A6D00C4F034 /* Salam */ = {
+			isa = PBXGroup;
+			children = (
+				58D49D3227750A6D00C4F034 /* AppDelegate.swift */,
+				5888DC3327AF2B0D003E387F /* API */,
+				5888DC2E27AF2760003E387F /* Extention */,
+				58D49D62277519D500C4F034 /* ViewControllers */,
+				58C1483D2775F6080085D886 /* Assets.xcassets */,
+				58D49D3827750A6D00C4F034 /* Main.storyboard */,
+				58D49D3D27750A6D00C4F034 /* LaunchScreen.storyboard */,
+				581D89C9279B32A0008AA2B6 /* GoogleService-Info.plist */,
+				58D49D4027750A6D00C4F034 /* Info.plist */,
+			);
+			path = Salam;
+			sourceTree = "<group>";
+		};
+		58D49D4827750A6E00C4F034 /* SalamTests */ = {
+			isa = PBXGroup;
+			children = (
+				58D49D4927750A6E00C4F034 /* SalamTests.swift */,
+			);
+			path = SalamTests;
+			sourceTree = "<group>";
+		};
+		58D49D5227750A6E00C4F034 /* SalamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58D49D5327750A6E00C4F034 /* SalamUITests.swift */,
+				58D49D5527750A6E00C4F034 /* SalamUITestsLaunchTests.swift */,
+			);
+			path = SalamUITests;
+			sourceTree = "<group>";
+		};
+		58D49D62277519D500C4F034 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				58B1925627F790F80045E63C /* cells */,
+				58D49D63277519E700C4F034 /* First Controllers */,
+				58A528FA27B07A290097444E /* TapBarVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		58D49D63277519E700C4F034 /* First Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58D49D3627750A6D00C4F034 /* FirstVC.swift */,
+				5872ADEE278F35D2004CEC1A /* SignUpVC.swift */,
+				5872ADF0278F478F004CEC1A /* SigInVC.swift */,
+				5872ADF2278F8BEB004CEC1A /* ForgetPassVC.swift */,
+			);
+			path = "First Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58D49D2E27750A6D00C4F034 /* Salam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D49D5927750A6E00C4F034 /* Build configuration list for PBXNativeTarget "Salam" */;
+			buildPhases = (
+				7186818112216DCB76908DAB /* [CP] Check Pods Manifest.lock */,
+				58D49D2B27750A6D00C4F034 /* Sources */,
+				58D49D2C27750A6D00C4F034 /* Frameworks */,
+				58D49D2D27750A6D00C4F034 /* Resources */,
+				C99203857916CB545A0F3FEB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Salam;
+			productName = Salam;
+			productReference = 58D49D2F27750A6D00C4F034 /* Salam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58D49D4427750A6E00C4F034 /* SalamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D49D5C27750A6E00C4F034 /* Build configuration list for PBXNativeTarget "SalamTests" */;
+			buildPhases = (
+				2D478CE8D60884251EB64D87 /* [CP] Check Pods Manifest.lock */,
+				58D49D4127750A6E00C4F034 /* Sources */,
+				58D49D4227750A6E00C4F034 /* Frameworks */,
+				58D49D4327750A6E00C4F034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D49D4727750A6E00C4F034 /* PBXTargetDependency */,
+			);
+			name = SalamTests;
+			productName = SalamTests;
+			productReference = 58D49D4527750A6E00C4F034 /* SalamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58D49D4E27750A6E00C4F034 /* SalamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D49D5F27750A6E00C4F034 /* Build configuration list for PBXNativeTarget "SalamUITests" */;
+			buildPhases = (
+				14DD06BE1A7B844ABAD771DA /* [CP] Check Pods Manifest.lock */,
+				58D49D4B27750A6E00C4F034 /* Sources */,
+				58D49D4C27750A6E00C4F034 /* Frameworks */,
+				58D49D4D27750A6E00C4F034 /* Resources */,
+				BEACD167B20EBF4CFBB7A00C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58D49D5127750A6E00C4F034 /* PBXTargetDependency */,
+			);
+			name = SalamUITests;
+			productName = SalamUITests;
+			productReference = 58D49D4F27750A6E00C4F034 /* SalamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58D49D2727750A6D00C4F034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					58D49D2E27750A6D00C4F034 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					58D49D4427750A6E00C4F034 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 58D49D2E27750A6D00C4F034;
+					};
+					58D49D4E27750A6E00C4F034 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 58D49D2E27750A6D00C4F034;
+					};
+				};
+			};
+			buildConfigurationList = 58D49D2A27750A6D00C4F034 /* Build configuration list for PBXProject "Salam" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58D49D2627750A6D00C4F034;
+			productRefGroup = 58D49D3027750A6D00C4F034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58D49D2E27750A6D00C4F034 /* Salam */,
+				58D49D4427750A6E00C4F034 /* SalamTests */,
+				58D49D4E27750A6E00C4F034 /* SalamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58D49D2D27750A6D00C4F034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D49D3F27750A6D00C4F034 /* LaunchScreen.storyboard in Resources */,
+				581D89CA279B32A0008AA2B6 /* GoogleService-Info.plist in Resources */,
+				58C1483E2775F6080085D886 /* Assets.xcassets in Resources */,
+				58D49D3A27750A6D00C4F034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D49D4327750A6E00C4F034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D49D4D27750A6E00C4F034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14DD06BE1A7B844ABAD771DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salam-SalamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D478CE8D60884251EB64D87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SalamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7186818112216DCB76908DAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEACD167B20EBF4CFBB7A00C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salam-SalamUITests/Pods-Salam-SalamUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salam-SalamUITests/Pods-Salam-SalamUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salam-SalamUITests/Pods-Salam-SalamUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C99203857916CB545A0F3FEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salam/Pods-Salam-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salam/Pods-Salam-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salam/Pods-Salam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58D49D2B27750A6D00C4F034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E3E6FB28305C7900EE2638 /* MessageTBVC.swift in Sources */,
+				5888DC3227AF2AC6003E387F /* Api.swift in Sources */,
+				5888DC3727AF32A2003E387F /* StorageService.swift in Sources */,
+				5888DC3527AF2B6C003E387F /* UserApi.swift in Sources */,
+				5872ADF3278F8BEB004CEC1A /* ForgetPassVC.swift in Sources */,
+				5888DC3027AF2794003E387F /* SignUpEXT.swift in Sources */,
+				58B1925527F78ECD0045E63C /* PeopleTBVC.swift in Sources */,
+				58B1925827F7912D0045E63C /* UserTBVCell.swift in Sources */,
+				5888DC3927AF367E003E387F /* Ref.swift in Sources */,
+				586B74462804D86C00E8BD81 /* User.swift in Sources */,
+				5872ADEF278F35D2004CEC1A /* SignUpVC.swift in Sources */,
+				58D49D3727750A6D00C4F034 /* FirstVC.swift in Sources */,
+				58F9B93327F7A952007F65BF /* testVC.swift in Sources */,
+				580A013F27ADE16A000482AE /* SwiftAlerts.swift in Sources */,
+				5872ADF1278F478F004CEC1A /* SigInVC.swift in Sources */,
+				58D49D3327750A6D00C4F034 /* AppDelegate.swift in Sources */,
+				58E3E6FD28306BE300EE2638 /* imageEXT.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D49D4127750A6E00C4F034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D49D4A27750A6E00C4F034 /* SalamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58D49D4B27750A6E00C4F034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58D49D5427750A6E00C4F034 /* SalamUITests.swift in Sources */,
+				58D49D5627750A6E00C4F034 /* SalamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58D49D4727750A6E00C4F034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D49D2E27750A6D00C4F034 /* Salam */;
+			targetProxy = 58D49D4627750A6E00C4F034 /* PBXContainerItemProxy */;
+		};
+		58D49D5127750A6E00C4F034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58D49D2E27750A6D00C4F034 /* Salam */;
+			targetProxy = 58D49D5027750A6E00C4F034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58D49D3827750A6D00C4F034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58D49D3927750A6D00C4F034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58D49D3D27750A6D00C4F034 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58D49D3E27750A6D00C4F034 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58D49D5727750A6E00C4F034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58D49D5827750A6E00C4F034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58D49D5A27750A6E00C4F034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B51B7CA428B7232673F3BF97 /* Pods-Salam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV83J9RB7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Salam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Salam;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abugosh.salam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58D49D5B27750A6E00C4F034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4B83BD974540F1F365CA0C /* Pods-Salam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV83J9RB7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Salam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Salam;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abugosh.salam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58D49D5D27750A6E00C4F034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442C11FFDEC4CB5B77437BBA /* Pods-SalamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV83J9RB7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abugosh.SalamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salam.app/Salam";
+			};
+			name = Debug;
+		};
+		58D49D5E27750A6E00C4F034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653AFCD28A5DCFA874870F03 /* Pods-SalamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV83J9RB7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abugosh.SalamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salam.app/Salam";
+			};
+			name = Release;
+		};
+		58D49D6027750A6E00C4F034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6093E4599BA8E55975DAE5E4 /* Pods-Salam-SalamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV83J9RB7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abugosh.SalamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salam;
+			};
+			name = Debug;
+		};
+		58D49D6127750A6E00C4F034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 435B06AA8647155B2E70A56B /* Pods-Salam-SalamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV83J9RB7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abugosh.SalamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58D49D2A27750A6D00C4F034 /* Build configuration list for PBXProject "Salam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D49D5727750A6E00C4F034 /* Debug */,
+				58D49D5827750A6E00C4F034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D49D5927750A6E00C4F034 /* Build configuration list for PBXNativeTarget "Salam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D49D5A27750A6E00C4F034 /* Debug */,
+				58D49D5B27750A6E00C4F034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D49D5C27750A6E00C4F034 /* Build configuration list for PBXNativeTarget "SalamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D49D5D27750A6E00C4F034 /* Debug */,
+				58D49D5E27750A6E00C4F034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D49D5F27750A6E00C4F034 /* Build configuration list for PBXNativeTarget "SalamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58D49D6027750A6E00C4F034 /* Debug */,
+				58D49D6127750A6E00C4F034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58D49D2727750A6D00C4F034 /* Project object */;
+}
